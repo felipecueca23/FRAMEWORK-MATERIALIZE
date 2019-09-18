@@ -1,0 +1,73 @@
+
+.barra-superior .row{
+  margin-bottom: 0;
+  /*border: 1px solid black;*/
+  padding-top: 15px;
+}
+
+
+body{
+  background: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.logo{
+  width: 200px;
+  margin-top: 0.5rem;
+  float: left;
+  padding-top: 20px;
+}
+.contenedor-botoness{
+      height: 90px;
+}
+.img-social{
+  width: 50px;
+}
+.contenedor-principal{
+  opacity: 0.7;
+  margin-top: 2rem;
+}
+.imagen_1{
+  padding-top: 20px;
+  height: 200px;
+}
+.input-field label {
+   color: black;
+ }
+ .perfil{
+   text-align: justify;
+  text-justify: inter-word;
+ }
+
+@media (max-width: 768px) {
+  .logo{
+    width: 150px;
+    padding: 0px;
+}
+
+.contenedor-botonesl{
+  display: none;
+}
+
+.perfil_1{
+  position: fixed;
+}
+
+img{
+  width: 100%;
+}
+
+
+}
+
+
+
+@media (min-width: 769px) {
+.contenedor-botoness{
+  display: none;
+}
+
+}
